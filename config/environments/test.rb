@@ -24,3 +24,8 @@ config.action_mailer.delivery_method = :test
 # Restful Authentication
 REST_AUTH_SITE_KEY = 'f5945d1c74d3502f8a3de8562e5bf21fe3fec887'
 REST_AUTH_DIGEST_STRETCHES = 10
+
+config.gem "rspec", :lib => false, :version => '>=1.2.2'
+config.gem "rspec-rails", :lib => false, :version => '>=1.2.2'
+config.gem "webrat", :lib => false, :version => '>=0.4.3'
+config.gem "cucumber", :lib => false, :version => '>=0.2.2'
